@@ -1,9 +1,8 @@
 name: "Workflow Dispatch"
 
 on:
-  pull_request:
-    branches:
-     - qa*
+  branches:
+    - qa*
 
 on:
   workflow_dispatch:
