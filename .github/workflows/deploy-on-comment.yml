@@ -38,6 +38,7 @@ jobs:
       - name: Deploy
         run: |
           echo "Deploying..."
+          cat README.md
           exit $(($RANDOM%2))
 
       - name: Add workflow result as comment on PR
